@@ -43,7 +43,7 @@ export class Rocket{
      addAstronaut(astronaut: Astronaut): boolean{
         if(this.canAdd(astronaut) === true){
             this.astronauts.push(astronaut);
-            return true;
+            return true
         } else {
             return false;
         }
